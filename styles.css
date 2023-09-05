@@ -1,0 +1,123 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(180deg,hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 110vh;
+}
+/* typograophy
+====================================================================
+*/
+.faq-header h1{
+    color: hsl(238, 29%, 16%);
+    text-align: center;
+}
+.queries-paragraph h2{
+    font-size: 1rem;
+    color: hsl(240, 6%, 50%);
+    font-weight: 700;
+    margin-top: 0;
+}
+.queries-paragraph p{
+    font-size: 12px;
+    font-weight: 400;
+    color:  hsl(240, 6%, 50%);
+    padding-bottom: 1rem;
+    margin-top: 0;
+}
+.arrow-icon-container{
+    padding-top: 1em;
+}
+/* layout 
+====================================================================
+*/
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container{
+    width: 900px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.picture-container{
+    width: 55%;
+    background: url(./images/illustration-woman-online-desktop.svg ) -50px 50px no-repeat, url(./images/bg-pattern-desktop.svg) -450px -250px no-repeat;
+    background-size:100% , 850px ;
+}
+.faq-container{
+    width: 45%;
+    padding: 5rem;
+}
+.queries-container{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    display: flex;
+    margin-top: 0.5rem;
+}
+.queries-paragraph{
+    height: 1em;
+    overflow: hidden;
+    padding: 1em 1em  1em 0;
+}
+.pattern-pic{
+    width: 0;
+}
+.illustration-pic{
+    width: 0;
+}
+/* media queries with three breakpoints  */
+@media (max-width:930px){
+    .container{
+        width: 750px;
+    }
+    .faq-container{
+        padding: 1rem;
+    }
+    .picture-container{
+        background-size: 100%, 800px;
+    }
+}
+@media (max-width:800px){
+    .picture-container{
+        background-size: 90%,740px;
+        width: 45%;       
+    }
+    .container{
+        width: 650px;
+    }
+    .faq-container{
+        width:50% ;
+    }
+    
+}
+@media (max-width:650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+
+
+    }
+    .picture-container{
+        display: grid;
+        place-content: center;
+        width: 90%;
+        background: url(./images/bg-pattern-mobile.svg) no-repeat bottom center;
+        background-size:250px;
+        height: 13vh;
+    
+    }
+    .pic{
+        margin-top: -150px;
+          
+    }
+    .faq-container{
+        width: 90%;
+        padding-bottom: 3em;
+    }
+    .illustration-pic{
+        width: 250px;
+    }
+
+ 
+}
