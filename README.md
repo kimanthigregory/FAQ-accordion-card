@@ -25,7 +25,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot%202.png)
 ![](./images/screenshot%204.png)
 
 ### Links
@@ -90,5 +89,5 @@ I want to deepen my understanding of javascript which I sruggled with in this pr
 
 ## Author
 
-- Website - [Add your name here](https://kimanthigregory.github.io/portfolio-website/)
+- Website - [gregory kimanthi](https://kimanthigregory.github.io/portfolio-website/)
 
