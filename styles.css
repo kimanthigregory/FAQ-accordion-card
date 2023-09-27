@@ -45,7 +45,7 @@ body{
 main{
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 110vh;
 }
 .container{
     width: 960px;
